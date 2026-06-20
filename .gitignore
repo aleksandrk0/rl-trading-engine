@@ -1,0 +1,35 @@
+# --- Секреты (никогда не коммитить) ---
+config/credentials.py
+.env
+*.key
+*.pem
+*.token
+
+# --- Данные и тяжёлые артефакты (кроме крошечного sample) ---
+data/*
+!data/sample/
+checkpoints/
+results/
+trades/
+feature_logs/
+logs/
+models/*.pth
+models/*.pt
+*.parquet
+*.pkl
+*.h5
+*.log
+demo_equity.png
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.spyproject/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.DS_Store
