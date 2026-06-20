@@ -1,0 +1,10 @@
+# Ядро — ставится на любой ОС (Linux/macOS/Windows), CPU достаточно.
+# Платформо-зависимое (MT5, pywin32, triton, TA-Lib) вынесено в requirements-live.txt
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pytz>=2023.3
+tqdm>=4.65
+rich>=13.0
+pytest>=7.4

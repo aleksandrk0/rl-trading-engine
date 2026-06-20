@@ -1,0 +1,13 @@
+# Платформо-зависимые зависимости для ЖИВОЙ торговли / обучения на GPU.
+# Не нужны для чтения кода, демо и тестов.
+-r requirements.txt
+
+MetaTrader5 ; platform_system == "Windows"   # брокерский коннектор, только Windows
+pywin32     ; platform_system == "Windows"   # win32api/win32gui и т.п.
+triton      ; platform_system == "Linux"     # кастомные GPU-ядра, Linux + NVIDIA
+TA-Lib                                        # требует C-библиотеку (см. README)
+ccxt                                          # коннектор к крипто-биржам (Bybit)
+websockets
+aiohttp
+numba
+psutil
