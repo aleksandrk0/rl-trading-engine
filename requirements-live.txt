@@ -10,4 +10,3 @@ ccxt                                          # коннектор к крипт
 websockets
 aiohttp
 numba
-psutil

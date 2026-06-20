@@ -11,7 +11,6 @@ import json
 import csv
 from concurrent.futures import ThreadPoolExecutor
 import threading
-import psutil
 import sys
 from collections import defaultdict
 import json
