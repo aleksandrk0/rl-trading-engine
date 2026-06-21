@@ -1,0 +1,14 @@
+# Нормализация переводов строк: текстовые файлы хранятся и выгружаются как LF на всех ОС.
+* text=auto eol=lf
+
+# Бинарные файлы — не нормализовать.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.pt    binary
+*.pth   binary
+*.pkl   binary
+*.npy   binary
+*.npz   binary
